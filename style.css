@@ -117,13 +117,13 @@ body {
 .face .forehead {
   width: 124px;
   height: 101px;
-  left: 113px;
+  left: 104px;
   top: 73px;
-  transform: skewX(8deg);
+  transform: skewX(18deg);
 }
 
 .hair .forehead {
-  width: 134px;
+  width: 117px;
   height: 43px;
   left: 99px;
   top: 38px;
@@ -143,4 +143,41 @@ body {
   height: 97px;
   left: 34px;
   top: 180px;
+}
+
+.eyebrow {
+  position: absolute;
+}
+
+.eyebrow-left {
+  left: 91px;
+  top: 150px;
+  transform: rotate(-6deg);
+}
+
+.eyebrow-right {
+  left: 197px;
+  top: 144px;
+  transform: rotate(12deg);
+}
+
+.eyebrow .left-end{
+  width: 13px;
+  height: 17px;
+  left: -6px;
+  transform: skewX(-14deg);
+  border-radius: 4px;
+}
+
+.eyebrow .center{
+  width: 49px;
+  height: 17px;
+}
+
+.eyebrow .right-end{
+  width: 13px;
+  height: 17px;
+  left: 43px;
+  transform: skewX(14deg);
+  border-radius: 4px;
 }

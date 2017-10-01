@@ -9,7 +9,7 @@ body {
   width: 259px;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%) rotate(-20deg);
 }
 
 .hair div {
@@ -199,11 +199,6 @@ body {
   border-radius: 4px 10px 16px 0;
 }
 
-.hair:hover div {
-  border-radius: 0;
-  transition: border-radius 1s;
-}
-
 .features div{
   position: absolute;
 }
@@ -241,7 +236,7 @@ body {
   height: 71px;
   left: 0px;
   top: 190px;
-  border-radius: 20px 20px 0px 35px;
+  border-radius: 20px 20px 4px 35px;
 }
 
 .features .eye {

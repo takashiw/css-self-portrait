@@ -1,0 +1,79 @@
+.faceContainer {
+ animation: 1.3s ease-in-out 1 moveLeft;
+}
+
+.hair div {
+  animation: 0.8s ease-in-out 1 moveLeft;
+}
+
+.face div {
+  animation: 0.6s ease-in-out 1 moveLeft;
+}
+
+.features div {
+  animation: 0.9s ease-in-out 1 moveLeft;
+}
+
+div {
+  transition: 0.2s ease-in-out;
+  border-color: white;
+}
+/*
+div div:hover{
+  opacity: 0.9;
+}*/
+
+.hair div:hover{
+  border: 4px white solid;
+  border-radius: 10px;
+  opacity: 0.7;
+  transform: none;
+}
+
+.face div:hover{
+  border: 4px white solid;
+  border-radius: 10px;
+  opacity: 0.7;
+  transform: none;
+}
+
+.features div:hover{
+  border: 4px white solid;
+  border-radius: 10px;
+  opacity: 0.7;
+  transform: none;
+}
+
+body {
+  animation: 2.9s ease-in-out 1 backgroundAnimation;
+  background-color: #24C6FF;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: rotate(0);
+    border-radius: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transform-origin: 100% 500%;
+  }
+
+  50% {
+    border-radius: 0;
+
+  }
+
+  100% {
+    transform-origin: 50%;
+  }
+}

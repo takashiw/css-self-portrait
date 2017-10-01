@@ -203,3 +203,43 @@ body {
   border-radius: 0;
   transition: border-radius 1s;
 }
+
+.features div{
+  position: absolute;
+}
+
+.features .teeth {
+  background-color: white;
+  width: 72px;
+  height: 16px;
+  left: 121px;
+  top: 297px;
+  border-radius: 3px;
+}
+
+.features .mouth {
+  background-color: #FF715A;
+  width: 61px;
+  height: 51px;
+  left: 123px;
+  top: 309px;
+  border-radius: 0 0 20px 41px;
+}
+
+.features .nose {
+  background-color: #FFB53E;
+  width: 32px;
+  height: 12px;
+  left: 162px;
+  top: 253px;
+  border-radius: 0 0 12px 12px;
+}
+
+.features .ear {
+  background-color: #FFCE6C;
+  width: 40px;
+  height: 71px;
+  left: 0px;
+  top: 190px;
+  border-radius: 20px 20px 0px 35px;
+}

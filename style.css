@@ -3,7 +3,7 @@ body {
 }
 
 .faceContainer {
-  border: 4px solid gray;
+  /*border: 4px solid gray;*/
   position: absolute;
   height: 400px;
   width: 259px;
@@ -156,7 +156,7 @@ body {
 }
 
 .eyebrow-right {
-  left: 197px;
+  left: 207px;
   top: 144px;
   transform: rotate(12deg);
 }
@@ -242,4 +242,23 @@ body {
   left: 0px;
   top: 190px;
   border-radius: 20px 20px 0px 35px;
+}
+
+.features .eye {
+  width: 33px;
+  height: 33px;
+  top: 191px;
+  border-radius: 50%;
+  border: 7px solid black;
+  border-bottom-color: #FFCE6C;
+  border-left-color: #FFCE6C;
+  transform: rotate(-45deg);
+}
+
+.features .eye-left {
+  left: 98px;
+}
+
+.features .eye-right {
+  left: 190px;
 }

@@ -60,3 +60,64 @@ body {
   top: 263px;
   border-radius: 0 0 55px 60px;
 }
+
+.face div {
+  position: absolute;
+  background-color: #FFCE6C;
+}
+
+.face .foundation {
+  width: 114px;
+  height: 179px;
+  left: 44px;
+  top: 78px;
+}
+
+.face .jaw {
+  width: 68px;
+  height: 98px;
+  left: 53px;
+  top: 203px;
+  border-radius: 0 0 0 57px;
+}
+
+.face .cheek-left {
+  width: 56px;
+  height: 98px;
+  left: 87px;
+  top: 250px;
+  border-radius: 0 0 0 57px;
+}
+
+.face .cheek-right {
+  width: 124px;
+  height: 91px;
+  left: 114px;
+  top: 238px;
+  transform: skewX(-35deg);
+  border-radius: 0 40px;
+}
+
+.face .below-eye {
+  width: 124px;
+  height: 45px;
+  left: 121px;
+  top: 210px;
+  transform: skewX(14deg);
+}
+
+.face .above-eye {
+  width: 124px;
+  height: 36px;
+  left: 118px;
+  top: 174px;
+  transform: skewX(-8deg);
+}
+
+.face .forehead {
+  width: 124px;
+  height: 101px;
+  left: 113px;
+  top: 73px;
+  transform: skewX(8deg);
+}

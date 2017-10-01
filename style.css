@@ -121,3 +121,26 @@ body {
   top: 73px;
   transform: skewX(8deg);
 }
+
+.hair .forehead {
+  width: 134px;
+  height: 43px;
+  left: 99px;
+  top: 38px;
+  border-radius: 20px;
+}
+
+.hair .hairline {
+  width: 124px;
+  height: 35px;
+  left: 27px;
+  top: 56px;
+  transform: rotate(-22deg);
+}
+
+.hair .sideburn {
+  width: 20.5px;
+  height: 97px;
+  left: 34px;
+  top: 180px;
+}

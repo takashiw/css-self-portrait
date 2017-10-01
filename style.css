@@ -11,3 +11,52 @@ body {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+
+.hair div {
+  background-color: #3A3A3A;
+  position: absolute;
+}
+
+.backhair {
+  width: 67px;
+  height: 160px;
+  top: 52.839px;
+  border-radius: 100px 0;
+}
+
+.tophair {
+  width: 110px;
+  height: 120px;
+  border-radius: 4px 64px 50px 50px;
+}
+
+.left {
+  left: 66px;
+  top: 26px;
+}
+
+.middle {
+  left: 97px;
+  top: 10px;
+}
+
+.right {
+  left: 137px;
+  top: 0px;
+}
+
+.bread-jaw {
+  width: 76px;
+  height: 137px;
+  top: 237px;
+  left: 34px;
+  border-radius: 0 0 0 76px;
+}
+
+.bread-chin {
+  width: 115px;
+  height: 137px;
+  left: 93px;
+  top: 263px;
+  border-radius: 0 0 55px 60px;
+}

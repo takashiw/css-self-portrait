@@ -181,3 +181,25 @@ body {
   transform: skewX(14deg);
   border-radius: 4px;
 }
+
+.facial .beard {
+  width: 15px;
+  height: 75px;
+  left: 110px;
+  top: 280px;
+  transform: rotate(-11.5deg);
+  border-radius: 15px 0 0 0;
+}
+
+.facial .mustache {
+  width: 89px;
+  height: 26px;
+  left: 115px;
+  top: 279px;
+  border-radius: 4px 10px 16px 0;
+}
+
+.hair:hover div {
+  border-radius: 0;
+  transition: border-radius 1s;
+}

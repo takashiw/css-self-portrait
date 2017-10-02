@@ -1,5 +1,5 @@
 body {
-
+  overflow: hidden;
 }
 
 .faceContainer {
@@ -147,6 +147,7 @@ body {
 
 .eyebrow {
   position: absolute;
+  border: none !important;
 }
 
 .eyebrow-left {

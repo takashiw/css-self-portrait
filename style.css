@@ -108,10 +108,11 @@ body {
 
 .face .above-eye {
   width: 124px;
-  height: 36px;
+  height: 54px;
   left: 118px;
-  top: 174px;
-  transform: skewX(-8deg);
+  top: 168px;
+  transform: skewX(-12deg);
+  border-radius: 0 12px;
 }
 
 .face .forehead {
